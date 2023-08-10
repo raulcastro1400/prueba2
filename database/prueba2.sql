@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 09-08-2023 a las 05:13:24
--- Versión del servidor: 10.4.28-MariaDB
--- Versión de PHP: 8.2.4
+-- Tiempo de generación: 10-08-2023 a las 07:49:07
+-- Versión del servidor: 10.4.27-MariaDB
+-- Versión de PHP: 8.2.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -57,15 +57,18 @@ CREATE TABLE `modulo` (
   `creditos` int(11) DEFAULT NULL,
   `personal_docente_id` int(11) DEFAULT NULL,
   `Total_horas_Teo_prac` int(11) DEFAULT NULL,
-  `imagen_modulo` varchar(255) DEFAULT NULL
+  `imagen_modulo` varchar(255) DEFAULT NULL,
+  `nro_modulo` varchar(255) DEFAULT 'NULL'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Volcado de datos para la tabla `modulo`
 --
 
-INSERT INTO `modulo` (`id`, `id_programa_estudio`, `nombre`, `descripcion`, `creditos`, `personal_docente_id`, `Total_horas_Teo_prac`, `imagen_modulo`) VALUES
-(1, 1, 'Gestión del Soporte Técnico', 'Este módulo cubre los fundamentos...', 22, 1, 512, 'img/plataformas.jpg');
+INSERT INTO `modulo` (`id`, `id_programa_estudio`, `nombre`, `descripcion`, `creditos`, `personal_docente_id`, `Total_horas_Teo_prac`, `imagen_modulo`, `nro_modulo`) VALUES
+(1, 1, 'Gestión del Soporte Técnico', 'Este módulo cubre los fundamentos...', 22, 1, 512, 'img/plataformas.jpg', '1'),
+(2, 1, 'Redes Informáticas', 'Este móduilo es de redes', 22, 1, 512, 'img/plataformas.jpg', '2'),
+(3, 2, 'Sistemas Electricos en Casa', 'Casa Casa Casa', 23, 1, 512, 'img/plataformas.jpg', '1');
 
 -- --------------------------------------------------------
 
@@ -220,8 +223,8 @@ CREATE TABLE `unidad_didactica` (
 --
 
 INSERT INTO `unidad_didactica` (`id`, `id_modulo`, `nombre`, `descripcion`, `silabus`, `id_programa_estudio`) VALUES
-(1, 1, 'Introducción a Redes', 'Este curso proporciona una introducción a los conceptos básicos de redes de computadoras.', NULL, NULL),
-(2, 1, 'Introducción a la Programación', 'Este módulo introduce los conceptos básicos de la programación.', NULL, 1);
+(1, 1, 'Introducción a Redes', 'Este curso proporciona una introducción a los conceptos básicos de redes de computadoras.', 'introducción.pdf', 1),
+(2, 1, 'Introducción a la Programación', 'Este módulo introduce los conceptos básicos de la programación.', 'introducción2.pdf', 1);
 
 -- --------------------------------------------------------
 
@@ -325,7 +328,7 @@ ALTER TABLE `galeria_imagenes`
 -- AUTO_INCREMENT de la tabla `modulo`
 --
 ALTER TABLE `modulo`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de la tabla `modulo_personal_docente`
