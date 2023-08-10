@@ -1,19 +1,18 @@
 <?php
-       require 'views/utils/funcionTemplate.php';
-     
+    require 'views/utils/funcionTemplate.php';
     $pageHeader =true;
     $pageHeaderProgramas =false;
     $pageHeaderPrincipal =false;
     $titlePage = $programa['nombre'];
 
     incluirTemplate('header');
-   
+
 ?>
 
- <main>
+<main>
 
-     <?php
-     include 'views/utils/titulos.php';
+    <?php
+    include 'views/utils/titulos.php';
     ?>
 
 <div class="container contenido-parrafo " data-wow-delay="0.4s">
@@ -45,32 +44,34 @@
     </div>
 
     
-    <div class="text-center pt-4">
+        <div class="text-center pt-4">
             <h2>MÓDULOS FORMATIVOS</h2>
-            </div>
+        </div>
 
-           <div class="row g-4 justify-content-center">
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="row g-4 justify-content-center">
             <?php foreach ($modulos as $modulo):?>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                     <div class="text-center p-4 pt-3">
                         <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4"><?php echo $modulo['nombre']; ?></div>
-                        <h5 class="mb-3">MÓDULO <?php echo $modulo['id']; ?></h5>
+                        <h5 class="mb-3">MÓDULO <?php echo $modulo['nro_modulo']; ?></h5>
                         
                         <ol class="breadcrumb justify-content-center mb-0">
                             <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i><?php echo $modulo['creditos']; ?> CRÉDITOS</li>
-                            <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i><?php echo $modulo['Total_horas_Teo_prac']; ?> HORAS TEÓRICAS Y PRÁCTICAS</li>
+                            <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i><?php echo $modulo['Total_horas_Teo_prac']; ?>  HORAS TEÓRICAS Y PRÁCTICAS</li>
                         </ol>
                     </div>
                     <div class="position-relative mt-auto">
                         <img class="img-fluid" src="<?php echo $modulo['imagen_modulo']; ?>" alt="Gestión de Soporte técnico">
                         <div class="courses-overlay">
-                            <a class="btn btn-outline-primary border-2" href="">Leer Más</a>
+                            <a class="btn btn-outline-primary border-2" href="index.php?page=unidadDidactica&action=show&moduloId=<?php echo $modulo['id']; ?>">Leer Más</a>
                         </div>
                     </div>
                 </div>
-                <?php endforeach; ?>
             </div>
+            <?php endforeach; ?>
+
+        </div>
 
             <!-- FIN DE MODULOS -->
 
@@ -79,19 +80,16 @@
                 <h2>NUESTROS DOCENTES</h2>
             </div>
 
-            <div class="row g-0 team-items pt-4">
+        <div class="row g-0 team-items pt-4">
             <?php foreach ($docentes as $docente): ?>
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="team-item position-relative">
-                <div class="position-relative">
-                    <img class="img-fluid" src="<?php echo $docente['imagen']; ?>" alt="">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item position-relative">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="<?php echo $docente['imagen']; ?>" alt="">
                     <div class="team-social text-center">
-                        <a class="btn btn-square btn-outline-primary border-2 m-1"
-                            href="<?php echo $docente['facebook']; ?>"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-primary border-2 m-1"
-                            href="<?php echo $docente['linkedin']; ?>"><i class="fab fa-linkedin"></i></a>
-                        <a class="btn btn-square btn-outline-primary border-2 m-1"
-                            href="<?php echo $docente['youtube']; ?>"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-primary border-2 m-1" href="<?php echo $docente['facebook']; ?>"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-primary border-2 m-1" href="<?php echo $docente['linkedin']; ?>"><i class="fab fa-linkedin"></i></a>
+                        <a class="btn btn-square btn-outline-primary border-2 m-1" href="<?php echo $docente['youtube']; ?>"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
                 <div class="bg-light text-center p-4">
@@ -103,7 +101,6 @@
         </div>
         <?php endforeach; ?>
             <!-- FIN DE DOCENTES DE ESPECIALIDAD -->
-
         </div>
 </div>
 

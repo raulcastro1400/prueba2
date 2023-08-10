@@ -116,11 +116,11 @@
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Formación</a>
                     <div class="dropdown-menu bg-light m-0">
                         <a href="index.php?page=programaEstudio&action=show&id=1" class="dropdown-item">Plataformas y Servicios TI</a>
-                        <a href="index.php?page=fabricacion" class="dropdown-item">Fabricación de Prendas de Vestir</a>
-                        <a href="index.php?page=mantenimiento" class="dropdown-item">Mantenimiento de Sistemas Eléctricos</a>
-                        <a href="index.php?page=estilismo" class="dropdown-item">Estilismo</a>
-                        <a href="index.php?page=cocina" class="dropdown-item">Cocina</a>
-                        <a href="index.php?page=soldadura" class="dropdown-item">Soldadura</a>
+                        <a href="index.php?page=programaEstudio&action=show&id=2" class="dropdown-item">Mantenimiento de Sistemas Eléctricos</a>
+                        <a href="index.php?page=programaEstudio&action=show&id=3" class="dropdown-item">Fabricación de Prendas de Vestir</a>
+                        <a href="index.php?page=programaEstudio&action=show&id=4" class="dropdown-item">Cocina</a>
+                        <a href="index.php?page=programaEstudio&action=show&id=5" class="dropdown-item">Soldadura</a>
+                        <a href="index.php?page=programaEstudio&action=show&id=6" class="dropdown-item">Estilismo</a>                        
                     </div>
                 </div>
 
