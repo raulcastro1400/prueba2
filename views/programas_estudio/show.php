@@ -85,10 +85,10 @@
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="team-item position-relative">
                     <div class="position-relative">
-                        <img class="img-fluid" src="<?php echo $docente['imagen']; ?>" alt="">
+                        <img class="img-fluid" src="img/docentes/<?php echo $docente['imagen']; ?>" alt="">
                     <div class="team-social text-center">
                         <a class="btn btn-square btn-outline-primary border-2 m-1" href="<?php echo $docente['facebook']; ?>"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-primary border-2 m-1" href="<?php echo $docente['linkedin']; ?>"><i class="fab fa-linkedin"></i></a>
+                        <a class="btn btn-square btn-outline-primary border-2 m-1" href="<?php echo $docente['whatsapp']; ?>"><i class="fab fa-whatsapp"></i></a>
                         <a class="btn btn-square btn-outline-primary border-2 m-1" href="<?php echo $docente['youtube']; ?>"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
