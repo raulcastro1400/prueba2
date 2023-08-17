@@ -7,7 +7,6 @@ class UnidadDidacticaController {
 
     protected $db;
     protected $unidadDidacticaModel;
-
     protected $moduloModel; // Asegúrate de que esta propiedad esté declarada
 
     public function __construct() {
@@ -21,7 +20,7 @@ class UnidadDidacticaController {
         require_once 'views/unidades_didacticas/index.php';
     }
 
- 
+
     public function show() {
         // Verificar si se proporcionó un ID de módulo en la URL
         if (isset($_GET['moduloId'])) {

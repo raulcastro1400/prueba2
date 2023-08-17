@@ -5,7 +5,7 @@
     $pageHeader =true;
     $pageHeaderProgramas =false;
     $pageHeaderPrincipal =false;
-    $titlePage = 'Personal Directivo - Administrativo';
+    $titlePage = 'Personal Administrativo';
 
     incluirTemplate('header');
    
@@ -23,7 +23,7 @@
         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="team-item position-relative">
                 <div class="position-relative">
-                    <img class="img-fluid" src="build/img/<?php echo $miembro['imagen']; ?>" alt="">
+                    <img class="img-fluid" src="img/administrativo/<?php echo $miembro['imagen']; ?>" alt="">
                     <div class="team-social text-center">
                         <a class="btn btn-square btn-outline-primary border-2 m-1"
                             href="<?php echo $miembro['facebook']; ?>"><i class="fab fa-facebook-f"></i></a>

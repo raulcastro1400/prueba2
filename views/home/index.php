@@ -226,29 +226,32 @@ incluirTemplate('carrusel');
                 <h1 class="display-6 mb-4">LA CAPACIDAD EN GESTIÓN PARA LA FORMACIÓN TÉCNICA</h1>
             </div>
 
-            <div class="row g-0 team-items">
-            <?php foreach ($personal as $miembro): ?>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item position-relative">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="build/img/<?php echo $miembro['imagen']; ?>" alt="">
-                            <div class="team-social text-center">
-                                <a class="btn btn-square btn-outline-primary border-2 m-1"
-                                    href="<?php echo $miembro['facebook']; ?>"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-outline-primary border-2 m-1"
-                                    href="<?php echo $miembro['linkedin']; ?>"><i class="fab fa-linkedin"></i></a>
-                                <a class="btn btn-square btn-outline-primary border-2 m-1"
-                                    href="<?php echo $miembro['youtube']; ?>"><i class="fab fa-youtube"></i></a>
-                            </div>
-                        </div>
-                        <div class="bg-light text-center p-4">
-                            <h5 class="mt-2"><?php echo $miembro['nombre']; ?></h5>
-                            <span><?php echo $miembro['cargo']; ?></span>
-                        </div>
+            <div class="container" data-wow-delay="0.4s">
+        <div class="row g-0 team-items">
+        <?php foreach ($personaldirectivo as $directivo): ?>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="team-item position-relative">
+                <div class="position-relative">
+                    <img class="img-fluid" src="img/directivos/<?php echo $directivo['imagen']; ?>" alt="">
+                    <div class="team-social text-center">
+                        <a class="btn btn-square btn-outline-primary border-2 m-1"
+                            href="<?php echo $directivo['facebook']; ?>"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-primary border-2 m-1"
+                            href="<?php echo $directivo['linkedin']; ?>"><i class="fab fa-linkedin"></i></a>
+                        <a class="btn btn-square btn-outline-primary border-2 m-1"
+                            href="<?php echo $directivo['youtube']; ?>"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
-            <?php endforeach; ?>
+                <div class="bg-light text-center p-4">
+                    <h5 class="mt-2"><?php echo $directivo['nombre']; ?></h5>
+                    
+                    <span><?php echo $directivo['cargo']; ?></span>
+                </div>
             </div>
+        </div>
+        <?php endforeach; ?>
+    </div>
+</div>
         </div>
     </div>
     <!-- Team End -->

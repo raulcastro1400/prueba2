@@ -4,6 +4,7 @@
 
 require_once 'models/ProgramaEstudioModel.php';
 require_once 'models/PersonalAdminModel.php';
+require_once 'models/PersonalDirectivoModel.php';
 require_once 'database/database.php';
 
 class HomeController {
@@ -14,12 +15,14 @@ class HomeController {
         $this->db = new Database();
         $this->programaEstudioModel = new ProgramaEstudioModel($this->db->getPdo());
         $this->personalAdminModel = new PersonalAdminModel($this->db->getPdo());
+        $this->personalDirectivoModel = new PersonalDirectivoModel($this->db->getPdo());
     }
 
     public function index() {
         // Obtener los programas de estudio
         $programas = $this->programaEstudioModel->getAllProgramas();
         $personal = $this->personalAdminModel->getAllPersonal();
+        $personaldirectivo = $this-> personalDirectivoModel->getAllPersonal();
 
         
         // Cargar la vista home/index.php y pasar los datos
