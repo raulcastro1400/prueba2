@@ -1,10 +1,10 @@
 <?php
 
 class Database {
-    private $host = 'localhost';
-    private $dbname = 'prueba2';
-    private $username = 'root';
-    private $password = '';
+    private $host = '38.62.224.39';
+    private $dbname = 'yuusqnuf_dinamic';
+    private $username = 'yuusqnuf_dinamic';
+    private $password = '^j*m9bg%bu6T';
     private $options = [
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
