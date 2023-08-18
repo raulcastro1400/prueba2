@@ -11,7 +11,7 @@
     <meta content="" name="description">
 
     <!-- ICONO -->
-    <link href="img/cetpro.ico" rel="icon">
+    <link href="/img/cetpro.ico" rel="icon">
 
     <!-- FUNETES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,14 +24,14 @@
  
 
     <!-- LIBRERIAS PARA ESTILOS-->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
 
 
     <!-- ESTILOS DE PAGINA -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/app.css" rel="stylesheet">
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/app.css" rel="stylesheet">
 
     <!-- TITULO DE LA PAGINA -->
     <title>CETPRO JULIO C. TELLO</title>
@@ -71,10 +71,10 @@
 
                 </a>
                 <div class="h-100 d-inline-flex align-items-center mx-n2">
-                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href="https://www.facebook.com/CetproJulioCtello">
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href="https://www.facebook.com/CetproJulioCtello" target="_blank">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href="https://www.youtube.com/cetprojulioctello">
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href="https://www.youtube.com/cetprojulioctello"target="_blank" >
                         <i class="fab fa-youtube"></i>
                     </a>
                   
@@ -91,8 +91,8 @@
     <!-- INICIO NAVEGACIÓN-->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
         <div class="logo">
-                <a href="index.html" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
-                   <img src="img/Logo_cetpro.png" alt="">
+                <a href="/home" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
+                   <img src="/img/Logo_cetpro.png" alt="">
                 </a>
         </div>
   
@@ -101,26 +101,26 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                <a href="/home" class="nav-item nav-link active">Inicio</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Nosotros</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="index.php?page=vision" class="dropdown-item">Visión - Misión</a>
-                        <a href="index.php?page=personalDirectivo" class="dropdown-item">Personal Directivo</a>
-                        <a href="index.php?page=personalAdmin" class="dropdown-item">Personal Administrativo</a>
-                        <a href="index.php?page=personalDocente" class="dropdown-item">Personal Docente</a>
-                        <a href="index.php?page=programaEstudio" class="dropdown-item">Nuestros Programas de Estudio</a>
+                        <a href="vision" class="dropdown-item">Visión - Misión</a>
+                        <a href="personalDirectivo" class="dropdown-item">Personal Directivo</a>
+                        <a href="personalAdmin" class="dropdown-item">Personal Administrativo</a>
+                        <a href="personalDocente" class="dropdown-item">Personal Docente</a>
+                        <a href="programaEstudio" class="dropdown-item">Nuestros Programas de Estudio</a>
                     </div>
                 </div>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Formación</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="index.php?page=programaEstudio&action=show&id=1" class="dropdown-item">Plataformas y Servicios TI</a>
-                        <a href="index.php?page=programaEstudio&action=show&id=2" class="dropdown-item">Mantenimiento de Sistemas Eléctricos</a>
-                        <a href="index.php?page=programaEstudio&action=show&id=3" class="dropdown-item">Fabricación de Prendas de Vestir</a>
-                        <a href="index.php?page=programaEstudio&action=show&id=4" class="dropdown-item">Cocina</a>
-                        <a href="index.php?page=programaEstudio&action=show&id=5" class="dropdown-item">Soldadura</a>
-                        <a href="index.php?page=programaEstudio&action=show&id=6" class="dropdown-item">Estilismo</a>                        
+                        <a href="/programaEstudio/show/1" class="dropdown-item">Plataformas y Servicios TI</a>
+                        <a href="/programaEstudio/show/2" class="dropdown-item">Mantenimiento de Sistemas Eléctricos</a>
+                        <a href="/programaEstudio/show/3" class="dropdown-item">Fabricación de Prendas de Vestir</a>
+                        <a href="/programaEstudio/show/4" class="dropdown-item">Cocina</a>
+                        <a href="/programaEstudio/show/5" class="dropdown-item">Soldadura</a>
+                        <a href="/programaEstudio/show/6" class="dropdown-item">Estilismo</a>                        
                     </div>
                 </div>
 
@@ -136,8 +136,8 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Servicios</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="" class="dropdown-item">Aula Virtual</a>
-                        <a href="" class="dropdown-item">Sustentación</a>
+                        <a href="https://classroom.google.com/" target="_blank" class="dropdown-item">Aula Virtual</a>
+                        <a href="https://aulavirtual.cetprojct.edu.pe/virtual/" class="dropdown-item" target="_blank">Sustentación</a>
                         <a href="index.php?page=contactos" class="dropdown-item">Ubicación</a>
  
                     </div>

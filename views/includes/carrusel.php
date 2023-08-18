@@ -12,8 +12,8 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-7">
                                     <h1 class="display-2 text-light mb-5 animated slideInDown">Plataformas y Servicios de Tecnologías de la Información</h1>
-                                    <a href="index.php?page=plataformas" class="btn btn-primary py-sm-3 px-sm-5">Leer Más</a>
-                                    <a href="" class="btn btn-light py-sm-3 px-sm-5 ms-3">Módulos</a>
+                                    <a href="/programaEstudio/show/1" class="btn btn-primary py-sm-3 px-sm-5">Leer Más</a>
+                                 <!--    <a href="" class="btn btn-light py-sm-3 px-sm-5 ms-3">Módulos</a> -->
                                 </div>
                             </div>
                         </div>
@@ -28,8 +28,8 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-7">
                                     <h1 class="display-2 text-light mb-5 animated slideInDown">Fabricación de prendas de Vestir</h1>
-                                    <a href="index.php?page=fabricacion" class="btn btn-primary py-sm-3 px-sm-5">Leer Más</a>
-                                    <a href="" class="btn btn-light py-sm-3 px-sm-5 ms-3">Módulos</a>
+                                    <a href="/programaEstudio/show/3" class="btn btn-primary py-sm-3 px-sm-5">Leer Más</a>
+                                   <!--  <a href="" class="btn btn-light py-sm-3 px-sm-5 ms-3">Módulos</a> -->
                                 </div>
                             </div>
                         </div>
@@ -43,8 +43,8 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-7">
                                     <h1 class="display-2 text-light mb-5 animated slideInDown">Mantenimiento de Sistemas Eléctricos</h1>
-                                    <a href="index.php?page=mantenimiento" class="btn btn-primary py-sm-3 px-sm-5">Leer Más</a>
-                                    <a href="" class="btn btn-light py-sm-3 px-sm-5 ms-3">Módulos</a>
+                                    <a href="/programaEstudio/show/2" class="btn btn-primary py-sm-3 px-sm-5">Leer Más</a>
+                                    <!-- <a href="" class="btn btn-light py-sm-3 px-sm-5 ms-3">Módulos</a> -->
                                 </div>
                             </div>
                         </div>
@@ -58,8 +58,8 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-7">
                                     <h1 class="display-2 text-light mb-5 animated slideInDown">Estilismo</h1>
-                                    <a href="index.php?page=estilismo" class="btn btn-primary py-sm-3 px-sm-5">Leer Más</a>
-                                    <a href="" class="btn btn-light py-sm-3 px-sm-5 ms-3">Módulos</a>
+                                    <a href="/programaEstudio/show/6" class="btn btn-primary py-sm-3 px-sm-5">Leer Más</a>
+                                    <!-- <a href="" class="btn btn-light py-sm-3 px-sm-5 ms-3">Módulos</a> -->
                                 </div>
                             </div>
                         </div>
@@ -73,8 +73,8 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-7">
                                     <h1 class="display-2 text-light mb-5 animated slideInDown">Cocina</h1>
-                                    <a href="index.php?page=cocina" class="btn btn-primary py-sm-3 px-sm-5">Leer Más</a>
-                                    <a href="" class="btn btn-light py-sm-3 px-sm-5 ms-3">Módulos</a>
+                                    <a href="/programaEstudio/show/4" class="btn btn-primary py-sm-3 px-sm-5">Leer Más</a>
+                                   <!--  <a href="" class="btn btn-light py-sm-3 px-sm-5 ms-3">Módulos</a> -->
                                 </div>
                             </div>
                         </div>
@@ -87,8 +87,8 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-7">
                                     <h1 class="display-2 text-light mb-5 animated slideInDown">Soldadura</h1>
-                                    <a href="index.php?page=soldadura" class="btn btn-primary py-sm-3 px-sm-5">Leer Más</a>
-                                    <a href="" class="btn btn-light py-sm-3 px-sm-5 ms-3">Módulos</a>
+                                    <a href="/programaEstudio/show/5" class="btn btn-primary py-sm-3 px-sm-5">Leer Más</a>
+                                  <!--   <a href="" class="btn btn-light py-sm-3 px-sm-5 ms-3">Módulos</a> -->
                                 </div>
                             </div>
                         </div>

@@ -20,7 +20,7 @@ incluirTemplate('carrusel');
                                 <i class="fa fa-user text-white"></i>
                             </div>
 
-                            <a href="">
+                            <a href="https://classroom.google.com/" target="_blank">
                                 <div class="ps-4">
                                     <h5>AULA VIRTUAL</h5>
                                     <p>Desde aquí puedes acceder a tu aula Virtual</p>
@@ -37,7 +37,7 @@ incluirTemplate('carrusel');
                                 <i class="fa fa-users text-white"></i>
                             </div>
 
-                            <a href="">
+                            <a href="https://aulavirtual.cetprojct.edu.pe/virtual/" target="_blank">
                                <div class="ps-4">
                                 <h5>AULA DE SUSTENTACIONES</h5>
                                 <p>Para accder a tu Sustentación Virtual desde aquí</p>
@@ -145,9 +145,9 @@ incluirTemplate('carrusel');
                         </ol>
                     </div>
                     <div class="position-relative mt-auto">
-                        <img class="img-fluid" src="<?php echo $programa['imagen_programa']; ?>" alt="">
+                        <img class="img-fluid" src="/img/programasEstudio/<?php echo $programa['imagen_programa']; ?>" alt="">
                         <div class="courses-overlay">
-                            <a class="btn btn-outline-primary border-2" href="#">Leer Más</a>
+                            <a class="btn btn-outline-primary border-2" href="/programaEstudio/show/<?php echo $programa['id']; ?>">Leer Más</a>
                         </div>
                     </div>
                 </div>

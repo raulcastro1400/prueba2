@@ -62,7 +62,7 @@
                         </ol>
                     </div>
                     <div class="position-relative mt-auto">
-                        <img class="img-fluid" src="<?php echo $modulo['imagen_modulo']; ?>" alt="Gestión de Soporte técnico">
+                        <img class="img-fluid" src="/<?php echo $modulo['imagen_modulo']; ?>" alt="Gestión de Soporte técnico">
                         <div class="courses-overlay">
                             <a class="btn btn-outline-primary border-2" href="index.php?page=unidadDidactica&action=show&moduloId=<?php echo $modulo['id']; ?>">Leer Más</a>
                         </div>
@@ -85,7 +85,7 @@
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="team-item position-relative">
                     <div class="position-relative">
-                        <img class="img-fluid" src="img/docentes/<?php echo $docente['imagen']; ?>" alt="">
+                        <img class="img-fluid" src="/img/docentes/<?php echo $docente['imagen']; ?>" alt="">
                     <div class="team-social text-center">
                         <a class="btn btn-square btn-outline-primary border-2 m-1" href="<?php echo $docente['facebook']; ?>"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-square btn-outline-primary border-2 m-1" href="<?php echo $docente['whatsapp']; ?>"><i class="fab fa-whatsapp"></i></a>

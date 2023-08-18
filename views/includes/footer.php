@@ -6,7 +6,7 @@
                         <h4 class="text-white mb-4">Ponerse en Contacto</h4>
                         <div class="logo">
                             <a href="index.html" class="navbar-brand d-flex mb-3 ">
-                               <img src="img/Logo_cetpro.png" alt="">
+                               <img src="/img/Logo_cetpro.png" alt="">
                             </a>
                         </div>
                         <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Av. Minero N° 500 - Yanacancha</p>
@@ -15,18 +15,18 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="text-light mb-4">Enlaces Rápidos</h4>
-                        <a class="btn btn-link" href="index.php?page=vision">Visión y Misión</a>
-                        <a class="btn btn-link" href="index.php?page=contacto">Contáctenos</a>
-                        <a class="btn btn-link" href="index.php?page=personalDocente">Personal Docente</a>
-                        <a class="btn btn-link" href="index.php?page=personalAdministrativo">Personal Administrativo</a>
-                        <a class="btn btn-link" href="index.php?page=ubicacion">Ubicación</a>
+                        <a class="btn btn-link" href="vision">Visión y Misión</a>
+                        <a class="btn btn-link" href="contacto">Contáctenos</a>
+                        <a class="btn btn-link" href="personalDocente">Personal Docente</a>
+                        <a class="btn btn-link" href="personalAdministrativo">Personal Administrativo</a>
+                        <a class="btn btn-link" href="ubicacion">Ubicación</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="text-light mb-4">Enlaces Populares</h4>
-                        <a class="btn btn-link" href="index.php?page=plataformas">Plataformas y Servicios TI</a>
-                        <a class="btn btn-link" href="index.php?page=mantenimiento">Mantenimiento</a>
-                        <a class="btn btn-link" href="index.php?page=cocina">Cocina</a>
-                        <a class="btn btn-link" href="index.php?page=estilismo">Estilismo</a>
+                        <a class="btn btn-link" href="/programaEstudio/show/1">Plataformas y Servicios TI</a>
+                        <a class="btn btn-link" href="/programaEstudio/show/2">Mantenimiento de Sistemas Eléctricos</a>
+                        <a class="btn btn-link" href="/programaEstudio/show/4">Cocina</a>
+                        <a class="btn btn-link" href="/programaEstudio/show/6">Estilismo</a>
                     </div>
                     <div class="col-lg-3 col-md-2">
                         <h4 class="text-light mb-4">Síganos</h4>
@@ -70,15 +70,15 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/wow/carruimg.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="/lib/wow/wow.min.js"></script>
+    <script src="/lib/wow/carruimg.js"></script>
+    <script src="/lib/easing/easing.min.js"></script>
+    <script src="/lib/waypoints/waypoints.min.js"></script>
+    <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
 
-    <script src="js/bundle.min.js"></script>
+    <script src="/js/bundle.min.js"></script>
 
 </body>
 

@@ -1,10 +1,7 @@
 RewriteEngine On
-RewriteBase /prueba2/
+RewriteBase /
 
-# Redireccionar todas las solicitudes que no sean para archivos existentes a index.php?page={solicitud}
+# Redireccionar todas las solicitudes que no sean para archivos existentes a index.php
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php?page=$1 [QSA,L]
-
-# Redireccionar programa/ID a programaEstudio&action=show&id=ID
-RewriteRule ^programa/([0-9]+)$ index.php?page=programaEstudio&action=show&id=$1 [QSA,L]
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
