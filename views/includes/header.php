@@ -105,11 +105,11 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Nosotros</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="vision" class="dropdown-item">Visión - Misión</a>
-                        <a href="personalDirectivo" class="dropdown-item">Personal Directivo</a>
-                        <a href="personalAdmin" class="dropdown-item">Personal Administrativo</a>
-                        <a href="personalDocente" class="dropdown-item">Personal Docente</a>
-                        <a href="programaEstudio" class="dropdown-item">Nuestros Programas de Estudio</a>
+                        <a href="/vision" class="dropdown-item">Visión - Misión</a>
+                        <a href="/personalDirectivo" class="dropdown-item">Personal Directivo</a>
+                        <a href="/personalAdmin" class="dropdown-item">Personal Administrativo</a>
+                        <a href="/personalDocente" class="dropdown-item">Personal Docente</a>
+                        <a href="/programaEstudio" class="dropdown-item">Nuestros Programas de Estudio</a>
                     </div>
                 </div>
                 <div class="nav-item dropdown">

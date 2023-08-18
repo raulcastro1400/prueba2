@@ -32,7 +32,7 @@
                              </ol>
                          </div>
                          <div class="position-relative mt-auto">
-                             <img class="img-fluid" src="<?php echo $programa['imagen_programa']; ?>" alt="">
+                             <img class="img-fluid" src="/img/programasEstudio/<?php echo $programa['imagen_programa']; ?>" alt="">
                              <div class="courses-overlay">
                                  <a class="btn btn-outline-primary border-2" href="#">Leer Más</a>
                              </div>
