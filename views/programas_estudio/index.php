@@ -34,7 +34,7 @@
                          <div class="position-relative mt-auto">
                              <img class="img-fluid" src="/img/programasEstudio/<?php echo $programa['imagen_programa']; ?>" alt="">
                              <div class="courses-overlay">
-                                 <a class="btn btn-outline-primary border-2" href="#">Leer Más</a>
+                                 <a class="btn btn-outline-primary border-2" href="/programaEstudio/show/<?php echo $programa['id']; ?>">Leer Más</a>
                              </div>
                          </div>
                      </div>

@@ -27,7 +27,7 @@
                     <img class="img-fluid" src="/img/docentes/<?php echo $docente['imagen']; ?>" alt="">
                     <div class="team-social text-center">
                         <a class="btn btn-square btn-outline-primary border-2 m-1" href="<?php echo $docente['facebook']; ?>"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-primary border-2 m-1" href="<?php echo $docente['whatsapp']; ?>"><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-square btn-outline-primary border-2 m-1" href="<?php echo $docente['whatsapp']; ?>" target="_blank"><i class="fab fa-whatsapp"></i></a>
                         <a class="btn btn-square btn-outline-primary border-2 m-1" href="<?php echo $docente['youtube']; ?>"><i class="fab fa-youtube"></i></a>
                     </div> 
                 </div>
