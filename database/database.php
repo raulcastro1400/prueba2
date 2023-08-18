@@ -1,10 +1,9 @@
 <?php
 
+// Database.php
+require_once 'config.php';
+
 class Database {
-    private $host = '38.62.224.39';
-    private $dbname = 'yuusqnuf_dinamic';
-    private $username = 'yuusqnuf_dinamic';
-    private $password = '^j*m9bg%bu6T';
     private $options = [
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
@@ -15,9 +14,9 @@ class Database {
     public function __construct() {
         try {
             $this->pdo = new PDO(
-                "mysql:host={$this->host};dbname={$this->dbname}",
-                $this->username,
-                $this->password,
+                "mysql:host=" . DB_HOST . ";dbname=" . DB_NAME,
+                DB_USER,
+                DB_PASSWORD,
                 $this->options
             );
         } catch (PDOException $e) {
@@ -29,3 +28,7 @@ class Database {
         return $this->pdo;
     }
 }
+?>
+
+
+
